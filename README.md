@@ -1,3 +1,5 @@
+
+
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -48,7 +50,7 @@ Write the detailed procedure here
 Developed by:Mahalakshmi S
 RegisterNumber:212225220060
 */
-'''
+```
 module exp_3a(A,B,C,sum,carry);
 input A,B,C;
 output sum,carry;
@@ -63,7 +65,7 @@ output dif,bor;
 assign dif=A^B^C;
 assign bor=(~A&C)|(~A&B)|(B&C);
 endmodule
-'''
+```
 
 **RTL Schematic**
 FULL ADDER
